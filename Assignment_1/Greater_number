@@ -1,0 +1,8 @@
+# The greater number in the given 3 numbers
+
+n1 = int(input("The first number is: "))
+n2 = int(input("The second number is: "))
+n3 = int(input("The third number is: "))
+
+N = [n1, n2, n3]
+print ("The greatest of all numbers is %s" % max(N))
